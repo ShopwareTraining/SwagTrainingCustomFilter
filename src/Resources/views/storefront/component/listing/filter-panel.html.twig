@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/component/listing/filter-panel.html.twig' %}
+
+{% block component_filter_panel_items %}
+    {{ parent() }}
+
+    {% sw_include '@Storefront/storefront/component/listing/filter/filter-boolean.html.twig' with {
+        name: 'foobar',
+        displayName: 'Foobar'
+    } %}
+{% endblock %}

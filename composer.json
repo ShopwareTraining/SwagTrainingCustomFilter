@@ -1,0 +1,40 @@
+{
+  "name": "swag-training/shopware6-custom-filter",
+  "description": "Example plugin to add a custom filter to product listings",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Swag"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.4"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\CustomFilter\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\CustomFilter\\SwagTrainingCustomFilter",
+    "copyright": "Swag",
+    "label": {
+      "de-DE": "SwagTrainingCustomFilter",
+      "en-GB": "SwagTrainingCustomFilter"
+    },
+    "description": {
+      "de-DE": "Example plugin to add a custom filter to product listings",
+      "en-GB": "Example plugin to add a custom filter to product listings"
+    },
+    "manufacturerLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    },
+    "supportLink": {
+      "de-DE": "https://acme.org",
+      "en-GB": "https://acme.org"
+    }
+  }
+}
